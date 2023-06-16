@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Lorem ipsum dolor sit amet", sans-serif !important;
+  }
+  /************ navbar starts here ************/
+  .navbar {
+    background-color: black;
+    padding: 12px 6px;
+  }
+  
+  .navbar .navLinks {
+    max-width: 500px !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .navLinks1 {
+    font-size: 40px;
+    text-decoration-style: dotted;
+    color: white;
+  }
+  
+  .navbar .navLinks li a {
+    padding: 4px 2px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+  }
+  /************ navbar ends here ************/
+  
+  /************* hero starts here ************/
+  
+  .heroContainer {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("https://www.rollingstone.com/wp-content/uploads/2020/10/gorillaz-review.jpg?w=1581&h=1054&crop=1");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 60px 15px 100px;
+    background-attachment: fixed;
+  }
+  
+  .heroContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1.page-title {
+    font-family: "Roboto", serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  .heroContainer .logo {
+    text-decoration: none;
+    max-width: 280px !important;
+    width: 95%;
+    height: 185px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 50px;
+    background-color: #807c80b6;
+    border-radius: 50%;
+    border: 6px solid #0e4a08;
+  }
+  
+  .heroContainer .logo a img {
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+  
+  /************ hero ends here ************/
+  
+  /************ Menu file starts here ************/
+  .menuFileContainer {
+    padding: 40px 0px;
+  }
+  
+  .menuFileContainer h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    margin: 0 0 35px;
+    text-align: center;
+  }
+  
+  .menuFileContainer .menuFile {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .menuFile .bowlSheet,
+  .menuFile .asides {
+    max-width: 455px;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  
+  .menuFile .bowlSheet {
+    margin-right: 20px !important;
+  }
+  
+  .menuFile h2 {
+    margin: 0 0 15px;
+    font-size: 20px;
+    color: #000000;
+  }
+  
+  .menuFile .contentBox {
+    margin-bottom: 15px;
+  }
+  
+  .menuFile .contentBox h4 {
+    margin: 0 0 2px;
+    font-size: 15px;
+    color: #1b900e;
+  }
+  
+  .menuFile .contentBox p {
+    margin: 0;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+  }
+  
+  .menuFile .smallText {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  /************ Menu file ends here ************/
+  
+  /************ Location file starts here ************/
+  
+  .locationContainer {
+    padding: 40px 0px;
+  }
+  
+  .locationContainer .location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 960px;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  
+  .locationContainer .locationImg {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 0 20px;
+  }
+  
+  .locationContainer .locationImg img {
+    width: 100%;
+  }
+  
+  .locationContainer .locationContent {
+    max-width: 430px;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 35px 32px 30px 18px;
+    background-color: black;
+  }
+  
+  .locationContainer .locationContent h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin: 0 0 11.5px;
+  }
+  
+  .locationContainer .locationContent p {
+    margin: 0 0 10px;
+    font-weight: 600;
+    line-height: 20px;
+    color: white;
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  .locationContainer .locationContent .hours {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .locationContent .hours li {
+    color: white;
+    font-size: 15.5px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  
+  .locationContent .hours li span {
+    display: inline-block;
+    width: 92px;
+  }
+  
+  /************ location ends here ************/
+  
+  /************ footer starts here ************/
+  .footer {
+    background-color: black;
+    padding: 30px 15px;
+  }
+  
+  .footer .socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .footer .socialMedia a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: #fffffd;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+  }
+  
+  .footer .socialMedia img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .footer p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+  }
+  
+  /* footer ends here */
+  
