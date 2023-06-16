@@ -5,12 +5,12 @@ body {
   }
   /************ navbar starts here ************/
   .navbar {
-    background-color: black;
+    background-color: rgb(22, 21, 21);
     padding: 12px 6px;
   }
   
   .navbar .navLinks {
-    max-width: 500px !important;
+    max-width: 600px !important;
     width: 100%;
     display: flex;
     justify-content: space-between;
